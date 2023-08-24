@@ -10,15 +10,19 @@ The switch statement selects one of many code blocks to be executed:
 Syntax:
 
 switch(expression) {
+
   case x:
     // code block
     break;
+    
   case y:
     // code block
     break;
+    
   default:
     // code block
 }
+
 This is how it works:
 
 The switch expression is evaluated once.
